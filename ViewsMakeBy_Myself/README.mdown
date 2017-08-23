@@ -1,0 +1,6 @@
+- GYHFeelImageView：图片视图，**识别**手势**动作**：**按下**、**抬起**
+- GYHScrollView：3个ScrollView，无限滚动
+- Make_Segment：自定制的segmentControl
+- 
+
+
