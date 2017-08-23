@@ -3,7 +3,7 @@
 //  11264
 //
 //  Created by goyohol on 16/3/26.
-//  Copyright © 2016年 RainHeroic Kung. All rights reserved.
+//  Copyright © 2016年 goyohol. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

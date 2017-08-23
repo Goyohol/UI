@@ -3,7 +3,7 @@
 //模态控制器切换
 //
 //  Created by goyohol on 16/2/23.
-//  Copyright © 2016年 RainHeroic Kung. All rights reserved.
+//  Copyright © 2016年 goyohol. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
