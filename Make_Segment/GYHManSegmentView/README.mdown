@@ -1,0 +1,3 @@
+A segmentControl maked by myself
+
+自定制的segmentControl

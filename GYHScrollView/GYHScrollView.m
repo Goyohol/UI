@@ -1,9 +1,9 @@
 //
 //  GYHScrollView.m
-//  1 3个iamgeView无限滚动
+//  3个iamgeView无限滚动
 //
-//  Created by 千锋 on 16/3/2.
-//  Copyright © 2016年 千锋. All rights reserved.
+//  Created by goyohol on 16/3/2.
+//  Copyright © 2016年 RainHeroic Kung. All rights reserved.
 //
 
 #import "GYHScrollView.h"

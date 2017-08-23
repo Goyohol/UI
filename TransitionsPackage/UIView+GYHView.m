@@ -2,8 +2,8 @@
 //  UIView+GYHView.m
 //模态控制器切换
 //
-//  Created by 千锋 on 16/2/23.
-//  Copyright © 2016年 龚雨豪. All rights reserved.
+//  Created by goyohol on 16/2/23.
+//  Copyright © 2016年 RainHeroic Kung. All rights reserved.
 //
 
 #import "UIView+GYHView.h"

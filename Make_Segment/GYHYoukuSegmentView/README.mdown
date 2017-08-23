@@ -1,0 +1,3 @@
+A segmentControl same as Youku maked by myself
+
+仿优酷的segmentControl

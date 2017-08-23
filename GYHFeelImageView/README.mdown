@@ -1,0 +1,3 @@
+An UIImageView can get Gestures:touchDown、touchUpinside
+
+图片视图，可以接受、识别手势**动作**：按下、抬起

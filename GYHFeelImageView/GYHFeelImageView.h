@@ -1,9 +1,9 @@
 //
 //  GYHFeelImageView.h
-//112
+//  ges
 //
-//  Created by goyohol on 16/3/26.
-//  Copyright © 2016年 龚雨豪. All rights reserved.
+//  Created by RainHeroic Kung on 16/3/26.
+//  Copyright © 2016年 RainHeroic Kung. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
