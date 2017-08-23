@@ -1,5 +1,8 @@
-- RoleWalkingWhenTouchDown：（点击按下后，一直移动）
-- WalkingBoy：walkingBoy with Flying Birds （点击一次，移动一次）
-- 
+- RoleWalkingWhenTouchDown：walkingBoy is always moving
+（UIControlEventTouchDragInside：点击按下后，一直移动）
+
+- RoleMoveOnceWhenTouchOnce：walkingBoy with Flying Birds 
+（UIControlEventTouchUpInside：点击一次，移动一次）
+
 
 
