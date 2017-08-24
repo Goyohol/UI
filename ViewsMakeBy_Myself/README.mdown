@@ -1,6 +1,8 @@
 - GYHFeelImageView：图片视图，**识别**手势**动作**：**按下**、**抬起**
 - GYHScrollView：3个ScrollView，无限滚动
+- GYHTextView：带placeholder的TextView
 - Make_Segment：自定制的segmentControl
-- 
+- NumberInputView：自定制纯数字键盘
+
 
 
