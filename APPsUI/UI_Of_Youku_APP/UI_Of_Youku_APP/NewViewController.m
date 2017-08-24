@@ -8,7 +8,7 @@
 
 #import "NewViewController.h"
 
-@interface NewViewController ()<UITableViewDataSource>
+@interface NewViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
     UITableView * _tableView;
 }
@@ -22,7 +22,7 @@
 {
     if (_dataArray == nil) {
         _dataArray = [[NSMutableArray alloc]init];
-        NSString * path = [[NSBundle mainBundle]pathForResource:@"image_海贼.plist" ofType:nil];
+        NSString * path = [[NSBundle mainBundle]pathForResource:@"image_火影忍者.plist" ofType:nil];
         NSArray * plistArray = [[NSArray alloc]initWithContentsOfFile:path];
         for (NSDictionary * dict in plistArray) {
             [_dataArray addObject:dict];
@@ -44,6 +44,7 @@
 {
     _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-130) style:UITableViewStylePlain];
     _tableView.dataSource = self;
+    _tableView.delegate = self;
     [_tableView setRowHeight:60];
     [self.view addSubview:_tableView];
     
@@ -69,6 +70,11 @@
     
     return cell;
 }
+#pragma mark - tableView Delegate
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 188.f;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

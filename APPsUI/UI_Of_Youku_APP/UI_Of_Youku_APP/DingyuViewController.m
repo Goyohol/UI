@@ -11,7 +11,7 @@
 
 #import "NewViewController.h"
 #import "JInxuanViewController.h"
-@interface DingyuViewController ()<UITableViewDataSource>
+@interface DingyuViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
     UITableView * _tableView;
 }
@@ -103,6 +103,7 @@
 {
     _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-130) style:UITableViewStylePlain];
     _tableView.dataSource = self;
+    _tableView.delegate = self;
 //    [_tableView setSectionHeaderHeight:50.0];
     [_tableView setRowHeight:60.0];
     
@@ -138,6 +139,10 @@
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return self.dataArray.count;
+}
+#pragma mark - tableView Delegate
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 130.f;
 }
 
 

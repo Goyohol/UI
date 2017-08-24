@@ -8,7 +8,7 @@
 
 #import "JInxuanViewController.h"
 
-@interface JInxuanViewController ()<UITableViewDataSource>
+@interface JInxuanViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
     UITableView * _tableView;
 }
@@ -43,6 +43,7 @@
 {
     _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-130) style:UITableViewStylePlain];
     _tableView.dataSource = self;
+    _tableView.delegate = self;
     [_tableView setRowHeight:60];
 //    [_tableView setSectionHeaderHeight:150];
     [self.view addSubview:_tableView];
@@ -78,6 +79,13 @@
 {
     return self.dataArray.count;
 }
+#pragma mark - tableView Delegate
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 120.f;
+}
+
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
