@@ -292,8 +292,7 @@
 				TargetAttributes = {
 					4D272EB41F4E46FF007020F6 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = VG6HJ85V7K;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					4D272ECD1F4E46FF007020F6 = {
 						CreatedOnToolsVersion = 8.1;
@@ -521,7 +520,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VG6HJ85V7K;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RoleMoveOnceWhenTouchOnce/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goyohol.RoleMoveOnceWhenTouchOnce;
@@ -533,7 +532,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VG6HJ85V7K;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RoleMoveOnceWhenTouchOnce/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goyohol.RoleMoveOnceWhenTouchOnce;
@@ -586,6 +585,7 @@
 				4D272ED91F4E46FF007020F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D272EDA1F4E46FF007020F6 /* Build configuration list for PBXNativeTarget "RoleMoveOnceWhenTouchOnceTests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +594,7 @@
 				4D272EDC1F4E46FF007020F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

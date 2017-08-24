@@ -219,8 +219,7 @@
 				TargetAttributes = {
 					4D272E2F1F4E42AB007020F6 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = VG6HJ85V7K;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					4D272E481F4E42AB007020F6 = {
 						CreatedOnToolsVersion = 8.1;
@@ -429,7 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VG6HJ85V7K;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RoleWalkingWhenTouchDown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goyohol.RoleWalkingWhenTouchDown;
@@ -441,7 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VG6HJ85V7K;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RoleWalkingWhenTouchDown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goyohol.RoleWalkingWhenTouchDown;
@@ -494,6 +493,7 @@
 				4D272E541F4E42AB007020F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D272E551F4E42AB007020F6 /* Build configuration list for PBXNativeTarget "RoleWalkingWhenTouchDownTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +502,7 @@
 				4D272E571F4E42AB007020F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
