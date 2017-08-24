@@ -194,8 +194,7 @@
 				TargetAttributes = {
 					4D272F301F4E491B007020F6 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = VG6HJ85V7K;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					4D272F491F4E491B007020F6 = {
 						CreatedOnToolsVersion = 8.1;
@@ -395,7 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VG6HJ85V7K;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BalckCat_Login_UI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.goyohol.BalckCat-Login-UI";
@@ -407,7 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VG6HJ85V7K;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BalckCat_Login_UI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.goyohol.BalckCat-Login-UI";
@@ -460,6 +459,7 @@
 				4D272F551F4E491B007020F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D272F561F4E491B007020F6 /* Build configuration list for PBXNativeTarget "BalckCat_Login_UITests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +468,7 @@
 				4D272F581F4E491B007020F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

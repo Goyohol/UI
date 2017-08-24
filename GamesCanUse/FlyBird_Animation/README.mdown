@@ -1,0 +1,6 @@
+FlyBird_Animation：飞鸟无限动画（移动）
+
+
+bird flying infinitely in the screen！
+
+
