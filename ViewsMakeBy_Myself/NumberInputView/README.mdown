@@ -1,0 +1,77 @@
+###GYHKeyBoard
+纯数字输入框(**自定制键盘**)
+
+
+
+</br>
+###使用：
+
+头文件：`"GYHKeyBoard.h"`
+协议：`<GYHKeyBoardDelegate>`
+</br>
+
+`- (void)viewDidLoad {}`里：
+
+    //1.创建一个 textField
+    UITextField * textField = [[UITextField alloc]initWithFrame:CGRectMake(100, 100, 200, 50)];
+    //2.设置边框样式
+    [textField setBorderStyle:UITextBorderStyleRoundedRect];
+    //3.显示在 界面
+    [self.view addSubview:textField];
+    
+    textField.tag = 100;    //设置tag值
+    
+    
+    //4.设置键盘
+    GYHKeyBoard * keyBoard = [[GYHKeyBoard alloc]initWithFrame:CGRectMake(0, 0, 200, 300)];
+    keyBoard.backgroundColor = [UIColor blueColor];
+    textField.inputView = keyBoard;
+    
+    //设置代理❤️❤️❤️
+    keyBoard.delegate = self;//textField已经显示在self.view上，所有self（可以完成协议(显示)方法，为代理方法）
+    
+    
+    
+    
+    
+</br>
+ 协议(显示键盘键的值)  代理(完成)  委托
+    #pragma mark - 实现协议方法
+    -(void)showText:(NSString *)text {
+        //拿到文本输入框
+        UITextField * field = (UITextField *)[self.view viewWithTag:100];
+    
+        //特殊功能的按钮 被点击
+        if ([text isEqualToString:@"清除"])
+        {
+            field.text = nil;
+            return;
+        }
+        if ([text isEqualToString:@"删除"])
+        {
+            if (field.text.length > 0) {
+            //字符串最后一位删除
+            NSMutableString * str = [NSMutableString stringWithString:field.text];
+            NSRange range = NSMakeRange(str.length-1, 1);
+            [str deleteCharactersInRange:range];
+            field.text = str;
+            return;
+            }else{
+                text = @"";
+            }
+        }
+    
+        //显示文字
+    //    field.text = text;
+        field.text = [NSString stringWithFormat:@"%@%@",field.text,text];
+    }
+
+
+
+
+
+</br>
+效果：
+![](http://img.hb.aicdn.com/a6caf4e68b209bc07e2ed87d70ae9873cffae98dbb46-HUG6Tt_fw658)
+
+
