@@ -8,4 +8,4 @@ refer to：ZCSlotMachine
 
 效果：
 
-[效果图](https://github.com/Goyohol/Pictures/blob/master/DesignSketch/TigerMachine.png)
+![效果图](https://github.com/Goyohol/Pictures/blob/master/DesignSketch/TigerMachine.png)
