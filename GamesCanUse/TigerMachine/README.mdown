@@ -6,4 +6,6 @@ TigerMachine：老虎机 slot machine
 refer to：ZCSlotMachine
 
 
+效果：
 
+[效果图](https://github.com/Goyohol/Pictures/blob/master/DesignSketch/TigerMachine.png)
