@@ -1,0 +1,20 @@
+使用：
+
+</br>
+头文件：
+	#import"VerticalPostionLabel.h"
+    
+</br>
+使用：
+    
+    VerticalPostionLabel * verPost_LB = [[VerticalPostionLabel alloc] initWithFrame:CGRectMake(10, 200, 360, 80)];
+    verPost_LB.text = @"Hello, Goyohol";
+    verPost_LB.backgroundColor = [UIColor cyanColor];
+    verPost_LB.textAlignment = NSTextAlignmentCenter;
+    [verPost_LB setVerticalAlignment:VerticalAlignmentTop];//设置上、中、下对齐
+    [self.view addSubview:verPost_LB];
+    
+    
+</br>
+</br>
+效果：

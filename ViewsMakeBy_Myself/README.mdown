@@ -3,6 +3,6 @@
 - GYHTextView：带placeholder的TextView
 - Make_Segment：自定制的segmentControl
 - NumberInputView：自定制纯数字键盘
-
+- VerticalPostionLabel: (Y轴)上、中、下对齐的Label
 
 
