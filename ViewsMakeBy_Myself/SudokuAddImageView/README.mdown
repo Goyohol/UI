@@ -1,0 +1,20 @@
+使用：
+
+包含头文件：`#import "SudokuAddImageView.h" //头文件`
+
+[ ]( )
+在ViewController里：
+
+    SudokuAddImageView * addImg_V = [[SudokuAddImageView alloc] init];
+    //addImg_V.allowEdit = YES; //是否可编辑
+    addImg_V.frame = CGRectMake(0, 20, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.width);
+    [self.view addSubview:addImg_V];
+    
+    
+    
+    
+</br>
+</br>
+效果：
+
+![](https://github.com/Goyohol/Pictures/blob/master/DesignSketch/SudokuAddImageView.png)
